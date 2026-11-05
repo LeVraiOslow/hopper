@@ -1,0 +1,18 @@
+# Intervalle (en ticks) entre deux aspirations des items au sol. 20 ticks = 1 seconde.
+collect-interval-ticks: 5
+
+# Nombre max de Chunk Hoppers par chunk (0 = illimite).
+max-per-chunk: 0
+
+# Apparence de l'item (format MiniMessage).
+item:
+  name: "<gold><bold>Chunk Hopper"
+  lore:
+    - "<gray>Aspire tous les items tombes"
+    - "<gray>dans le chunk ou il est pose."
+
+messages:
+  max-reached: "<red>Il y a deja trop de Chunk Hoppers dans ce chunk."
+  given: "<green>Tu as donne <amount> Chunk Hopper(s) a <player>."
+  usage: "<red>Usage : /chunkhopper give <joueur> [quantite]"
+  unknown-player: "<red>Joueur introuvable."

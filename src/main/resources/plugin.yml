@@ -1,0 +1,15 @@
+name: ChunkHopper
+version: '${project.version}'
+main: fr.chunkhopper.ChunkHopperPlugin
+api-version: '26.2'
+description: Hopper qui aspire tous les items tombes dans son chunk
+commands:
+  chunkhopper:
+    description: Donne un Chunk Hopper
+    usage: /<command> give <joueur> [quantite]
+    aliases: [chopper]
+    permission: chunkhopper.give
+permissions:
+  chunkhopper.give:
+    description: Permet de donner des Chunk Hoppers
+    default: op
